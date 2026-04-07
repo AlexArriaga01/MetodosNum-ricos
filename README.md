@@ -1,2 +1,1 @@
 # MetodosNum-ricos
-# MetodosNum-ricos
