@@ -2,12 +2,12 @@ import numpy as np
 import pandas as pd
 
 def F(X):
-    return np.array([np.cos(X[1]),np.cos(X[0])])
+    return np.array([np.cos(X[1])-X[0],np.cos(X[0])-X[1])
 
 def DF(X):
-    return np.array([[0,-np.sin(X[1])],[-np.sin(X[0]),0]])
+    return np.array([[-1,-np.sin(X[1])],[-np.sin(X[0]),-1]])
 
-x,y=1,1
+x,y=0,0
 X=np.array([x,y])
 
 L_X=[X]
