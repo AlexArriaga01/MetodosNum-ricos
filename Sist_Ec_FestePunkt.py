@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def F(x):
+def F(X):
     return np.cos(X[1]),np.cos(X[0])
 
 x,y=0,0
